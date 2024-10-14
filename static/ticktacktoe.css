@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+.container{
+    height:70vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.bigbox{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2vmin;
+    
+    
+
+}
+
+.boxes{
+    height:18vmin;
+    width:18vmin;
+    background-color:teal;
+    border-radius:1rem;
+    border:none;
+    color:white;
+    font-size:10vmin;
+}
+
+#reset{
+      height:5vmin;
+      width:15vmin;
+      border-radius:1.5rem;
+      border:none;
+      background-color: teal;
+      color:white;
+      font-size: 2vmin;
+      
+}
