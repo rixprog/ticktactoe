@@ -68,6 +68,7 @@ function winner(){
         break;
        } 
     }
+    no_winner();
 return victory;
 }
 
@@ -86,3 +87,18 @@ reset.addEventListener('click',()=>{
         boxes[i].disabled=false;
     }
 })
+
+function no_winner(){
+    let count=0;
+    for(let i=0;i<boxes.length;i++){
+        if(boxes[i].innerText!==''){
+            count++;
+        }
+        else{
+            break;
+        }
+    }   
+    if(count==9){
+        h2.innerText='the match is draw';
+    }
+}
